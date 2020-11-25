@@ -1,0 +1,421 @@
+
+/*HEADER*/
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(187, 20, 61, 0.596);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+}
+
+header>h1 {
+    padding: 1rem;
+    font-weight: 900;
+}
+
+nav {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+nav>a{
+    top: 0.2rem;
+    margin: 0.5rem;
+    color: bisque;
+    text-decoration: none;
+
+}
+
+
+
+/*BODY*/
+
+/*ABOUT*/
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.container>p {
+    padding: 2rem;
+    margin: 3rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+}
+
+.container>p>span {
+    font-weight: bold;
+}
+/*SOME STUFF*/
+
+.somestuffbod {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.somestuffbod>*:hover {
+    transform: scale(1.3);
+    transition: all 1s ease-in-out;
+}
+
+.collage{
+    height: 40vh;
+    width: 15vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.cycle {
+    height: 40vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.script {
+    height: 40vh;
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.pictures-1 {
+    
+    background-image: url(https://4jw1oa.db.files.1drv.com/y4m8Dqtd705gKNJPCRd7SjhbaaixI5yLGBmYPUJZk3kLXJCwiBKJZ_L7PQezjO_Ad2dvyqpZUPFiKqQfUrEh8TU9aThfjtoVaXVmMyDGQdWvGXYGxw-cVBR_5DiM8oklv4WjHQn4i4k6GnTJr0IGxRo4O716hl8UdF_0KLoxZs2UYCr1s-Mv51U1AiN0huKk9MMo4Vd_-TWCivslXv8mzskOA?width=800&height=800&cropmode=none);
+   
+}
+
+.pictures-2{
+    
+    background-image: url(https://5tw1oa.db.files.1drv.com/y4mu2E97tNWwKbWlUFyz3NdgaL5fxazGwqfKKPVcPC8V-6_5djRrWR8v2L76baW6akfV-ePXSiwZS9e6mHV0cErCFbWhAphY5ojW73j17qwNPEyBRdIksVHriUjaZEfXi-S8JiIqX0nXvn8EgyhhtmqF8NSshLtDSVqGDWEnDOP-3fOmZ5UuSYOEknHJxmRnGcu9LFLHbSCF5sLSxfXf4rDCA?width=800&height=800&cropmode=none);
+}
+
+.pictures-3{
+   
+    background-image: url(https://5dw1oa.db.files.1drv.com/y4mx8XOkppGWq40Y8Kkxj8hpRtUphB2MCKMIsBRP3gLHvmG6rzliURv6ulStRD4ORsheWUunVoyki69ofzLLvQQBTmB6I4SzrqMzIFr4d4a7ieQdDaZjWm2FVoGyyfFp19NUpmqoSDTg_FXLkwf6_arfK1s8_T-JBDR81lMNPC_ep3LZkyYmw6ZU8TP-weRPpIqER25-IN69P0OvFswfFyocw?width=800&height=800&cropmode=none);
+
+}
+
+.memoire-1{
+    height: 70vh;
+    width: 30vw;
+    background-image: url(https://db3pap004files.storage.live.com/y4mp9igNc1s90Ex6vTaygRTLHIpjWeEZ5iGq2hPmV9nvFVxB_fxyPc_c19TNAobnkoRQX3UnTpo0tmd_ZFxNjBzDnQnwdcH1KB75f7p8RsczWkhiHrAMKd1x3Q6HBcAedQLBiob358pQVX4-Upnb6IqeY8ryn5UOt383ewa7phhgKngwlq9XJ-tGOn3KTMPtRWy?width=1748&height=1240&cropmode=none);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.memoire-2{
+    height: 60vh;
+    width: 40vw;
+    background-image: url(https://db3pap004files.storage.live.com/y4mrBLbyyL-fEb7YKtD82O5Q81yYolnA7rXobuvM9KaQQz46rkEFrtYI35IrqMEripXiBf8jhzt4kNgS3RoS9kX4AmMk8ly26LOPkcH9eMK-SVPgkxHZfjlsscEQwrKtph6liLI2-Bj4r5mW6Sie3islBDjq_VCUT61GeyFcp25zCUR0tPFrd7tjm1LrkmEFq92?width=1748&height=1240&cropmode=none);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    border-radius: 10%;
+    margin: auto;
+}
+
+
+
+.deep-down {
+    background-image: url(https://db3pap004files.storage.live.com/y4mSa7vGgQ7oqIT1bSS6S6hmdb_e1r9x3U00c5bzbrijex9bYw_9ht8NSTeqzmSB6fbPFuADyCssV7d8tu6_IsKSUe4ReXurQKm6sP8MqRTNogemKQNyXeWwpat-f_hcUa0-s8QhzsVcJLDF7p4lrIDReP3l3p7WyOvzRD7dVfUVWFrcWV36AwL1-ydpokIzrLt?width=1151&height=830&cropmode=none);
+}
+
+.deep-down-2 {
+    background-image: url(https://db3pap004files.storage.live.com/y4mR6ZLRfFB9Wf0NDumdhrz79CInoymrnIKh2bsjSmiA2z8TbS9BFvVgH4mUMAUNXxdj4-G1lbbwpchBA0PsFBrM1_OGXv50NOeoD3-uVFM6zUNfvKzbpHOa4Go8rlUNlEmNITrqS5heYzVzK8Fu62UVhrju2dQ7bnJNFE9qGHZ4YJDgsvVAS9s8Bma355YfbFi?width=1157&height=855&cropmode=none);
+}
+
+
+
+.fin-de-cycle {
+    background-image: url(https://db3pap004files.storage.live.com/y4m7R27xNRSh-OOEt66dvzxuH3uYSK4l-t8KdI2iRh-HicY3r2cx_CaZbKwKCCr-zNJzlcKau9g5TfYr8PFCZWDJi3lzjNoOWk0STtWCZDOv0ndhH_tpx4byLVKLPcczyxr6BVlVO6phRYDeImAohF-cDc4u0EcDbBgvuVVwQB0fYfbJyfp-9Py1Ga6AikVqBq8?width=1157&height=816&cropmode=none);
+}
+
+.fin-de-cycle-2 {
+    background-image: url(https://db3pap004files.storage.live.com/y4mtUr04sDzAvi7kFUNQuBYmMatvqtxk-zj9MyykOshm3EFBp_cserVuirIG7jry6L1HhJFvq_nMf3COKEedlk2lEYichROqm7aNuNIjqEjlgDV56RIyHRWtNjV7Zil_1KFtN7UNwkIGC_8CpjUAOJlH_uGIS1WG1DkuNtcFU6zEhJ23hfXjZCl-8gOzM2dqy-y?width=1121&height=812&cropmode=none);
+}
+
+/*SENTENCE GENERATOR*/
+
+#container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50vw;
+    border-radius: 50%;
+    background-color: #0E100D;
+    margin: auto;
+    overflow: hidden;
+}
+
+#god {
+    background-image: url(https://s2.dmcdn.net/v/xaf31ELUzHApNbcl/x360);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 40vw;
+}
+
+#button {
+   min-width: 10px;
+   min-height: 10px;
+    background-color: #691B1A;
+    border: none;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#button:hover{
+    background-color: rgba(187, 20, 61, 0.596);
+}
+
+#text {
+    color:#3A626F;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    border-style: 1px solid rgba(102, 6, 30, 0.596);
+    max-width: 30vw;
+    margin: auto;
+    line-height: 1.5;
+}
+/*QUI DE JL OU JC*/
+
+#choose {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#randomsentence {
+    display: block;
+    width: 10%;
+    height: 10%;
+    background-color: rgba(187, 20, 61, 0.596);
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 1rem; 
+}
+
+#randomsentence:hover{
+    background-color: rgb(194, 38, 98);
+}
+
+#jljc {
+height: 10vh;
+width: 70vw;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+#answer {
+height: 10vh;
+width: 70vw;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+.whole-block {
+display: flex;
+flex-flow: row wrap;
+}
+
+.jc-block {
+display: flex;
+flex-flow: column nowrap;
+width: 30vw;
+height: 40vh;
+background-image: url(https://images.caradisiac.com/logos/0/8/4/4/140844/S0-Jean-Claude-Van-Damme-reste-aware-meme-apres-un-accident-de-voiture-52045.jpg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#jeanclaude {
+    display: block;
+    width: 50%;
+    height: 20%;
+    background-color: rgba(252, 217, 175, 0.5);
+    border: none;
+    border-radius: 45%;
+    padding: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0.5rem; 
+}
+
+#jeanclaude:hover {
+    background-color: rgba(187, 20, 61, 0.596);
+}
+
+.jl-block{
+    width: 30vw;
+    height: 40vh;
+    background-image: url(https://www.cinematheque.fr/cache/media/articles/jean-luc-godard/cr,700,525-e189e2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#jeanluc {
+    display: block;
+    width: 50%;
+    height: 20%;
+    background-color: rgba(252, 217, 175, 0.5);
+    border: none;
+    border-radius: 45%;
+    padding: .2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: .5rem; 
+}
+
+#jeanluc:hover {
+    background-color: rgba(187, 20, 61, 0.596);
+}
+
+/*ASIDE*/
+
+.side-icons{
+    position: fixed;
+    bottom: 0;
+    margin: 1rem 1rem 0 0;
+    height: 100vh;
+    width: 5vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+}
+
+.fas {
+    color: rgba(187, 20, 61, 0.596);
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    padding: 0.5rem;
+    transform: scale(1.2);
+}
+
+/*404*/
+
+.errorcontainer {
+height: 100vh;
+width: 100vw;
+margin: auto;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+background-color:rgba(236, 159, 178, 0.396);
+}
+
+.jack {
+width: 40%;
+}
+
+.text-lost {
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    color: black;
+    margin: 1rem;
+    letter-spacing: .2rem;
+}
+
+.four{
+    font-family: 'Anton', sans-serif;
+    color: rgba(187, 20, 61, 0.596);
+    font-size: 300%;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1280px){
+    #container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        width: 80vw;
+        border-radius: 50%;
+        /* background-color: #0E100D; */
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    #god {
+        /* background-color:#0E100D; */
+        height: 0vh;
+        width: 0vw;
+    }
+    
+    #button {
+      
+        background-color: black;
+        color: bisque;
+        border: none;
+        
+        padding: .5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin: 1rem;
+    }
+    
+    #button:hover{
+        color: #0E100D;
+        background-color: #0E100D;
+    }
+    
+    #text {
+        color:#3A626F;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+        margin: auto;
+        line-height: 1;
+        width: 100%;
+    }
+
+  
+
+}
