@@ -1,4 +1,7 @@
 # simple-showcase-site
 
-A very simple website using an Express server and EJS views.
-Launch the server on index.js and navigate on your localhost, port 3000.
+A very simple static website using an Express server and EJS views.
+
+<img src="https://db3pap004files.storage.live.com/y4mYE1c_eL1_zO1NkmycMuERZ0eDC82vpETmn4oTOJGTkEl2hvRGlZTr0FoaX-yqccEzGwE0lJGzXhaWinv6Qzcnx7aDtSdO2CuFcjRV4HD7RZk-zxd5PsR63XCgOGvzeuGzjI9JBY1uLe6Yt5yChbkiuHE23UdPzarwH4oHuprnLNkgpLSzqncu0_c8lvfEonz?width=971&height=817&cropmode=none" width=15% height=15%>
+
+Run ```node index``` at the root and navigate on your localhost, port 3000.
